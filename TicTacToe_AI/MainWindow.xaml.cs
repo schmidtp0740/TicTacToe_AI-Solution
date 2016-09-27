@@ -23,6 +23,53 @@ namespace TicTacToe_AI
         public MainWindow()
         {
             InitializeComponent();
+            
+            
+        }
+
+        private void CM_Click(object sender, RoutedEventArgs e)
+        {
+            CenterMiddleBtn.Content= "X";
+        }
+
+        private void TL_Click(object sender, RoutedEventArgs e)
+        {
+            Game.MarkPosition(Game.player, 0);
+        }
+
+        private void TM_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void TR_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void CL_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void CR_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BL_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BC_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BR_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

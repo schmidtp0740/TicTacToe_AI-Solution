@@ -5,8 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TicTacToe_AI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="600" Width="600">
     <Grid>
-        
+        <Button x:Name="TopLeftBtn" Content="TL" HorizontalAlignment="Left" Margin="49,34,0,0" VerticalAlignment="Top" Width="125" Height="100" Click="TL_Click"/>
+        <Button x:Name="TopMiddleBtn" Content="TM" HorizontalAlignment="Left" Margin="251,34,0,0" VerticalAlignment="Top" Width="125" Height="100" Click="TM_Click"/>
+        <Button x:Name="TopRightBtn" Content="TR" HorizontalAlignment="Left" Margin="451,34,0,0" VerticalAlignment="Top" Width="125" Height="100" Click="TR_Click"/>
+        <Button x:Name="CenterLeftBtn" Content="CL" HorizontalAlignment="Left" Margin="49,196,0,0" VerticalAlignment="Top" Width="125" Height="100" Click="CL_Click"/>
+        <Button x:Name="CenterMiddleBtn" Content="CM" HorizontalAlignment="Left" Margin="251,196,0,0" VerticalAlignment="Top" Width="125" Height="100" Click="CM_Click"/>
+        <Button x:Name="CenterRightBtn" Content="CR" HorizontalAlignment="Left" Margin="451,196,0,0" VerticalAlignment="Top" Width="125" Height="100" Click="CR_Click"/>
+        <Button x:Name="BottomLeftBtn" Content="BL" HorizontalAlignment="Left" Margin="49,377,0,0" VerticalAlignment="Top" Width="125" Height="100" Click="BL_Click"/>
+        <Button x:Name="BottomCenterBtn" Content="BC" HorizontalAlignment="Left" Margin="251,377,0,0" VerticalAlignment="Top" Width="125" Height="100" Click="BC_Click"/>
+        <Button x:Name="BottomRightBtn" Content="BR" HorizontalAlignment="Left" Margin="451,377,0,0" VerticalAlignment="Top" Width="125" Height="100" Click="BR_Click"/>
+
+
     </Grid>
 </Window>
